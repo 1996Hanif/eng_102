@@ -16,6 +16,8 @@ public class Main {
 
     System.out.println(Arrays.asList(output_array));
     }
+
+    //challenge 1
     public static int Challenge1(){
         int total_sum = 0;
         for (int i = 0; i< 1000; i++)
@@ -28,6 +30,7 @@ public class Main {
         return total_sum;
     }
 
+    //challenge 2
     public static String[] sortByLength(String input){
         String[] array = input.split(" ");
         Arrays.sort(array, (a, b)->Integer.compare(a.length(), b.length()));
